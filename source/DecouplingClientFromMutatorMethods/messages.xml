@@ -1,0 +1,14 @@
+<MessageCollection> 
+	<Detector class="Detector.DecouplingClientFromMutatorMethodsDetector"> 
+		<Details> 
+			<![CDATA[ <p>This detector warns about Coupling Client from mutators methods. It is a fast detector.</p> ]]> 
+		</Details> 
+	</Detector>  
+	<BugPattern type="DC_DECOUPLING_CLIENT_FROM_MUTATORS"> 
+		<ShortDescription>Limiting Access From Client to Mutator Methods</ShortDescription> 
+		<LongDescription>Limiting Access From Client to Mutator Methods {1} {2} {3}</LongDescription>  
+		<Details> <![CDATA[ <p>Decoupling Client from Mutator Methods</p>  <p></p> <p>For more information on this see <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6231579">Sun Bug #6231579</a> and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug #6178997</a>.</p> ]]>  
+		</Details> 
+	</BugPattern>  
+	<BugCode abbrev="DC">Limiting Access From Client to Mutator Methods</BugCode> 
+</MessageCollection>

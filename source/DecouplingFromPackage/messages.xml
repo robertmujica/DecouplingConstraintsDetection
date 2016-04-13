@@ -1,0 +1,14 @@
+<MessageCollection> 
+	<Detector class="Detector.DecouplingFromPackageDetector"> 
+		<Details> 
+			<![CDATA[ <p>This detector warns about Coupling between Methods. It is a fast detector.</p> ]]> 
+		</Details> 
+	</Detector>  
+	<BugPattern type="DC_DECOUPLING_PACKAGES"> 
+		<ShortDescription>Decoupling From a Package</ShortDescription> 
+		<LongDescription>Found Package Coupling in {1} {2} {3}</LongDescription>  
+		<Details> <![CDATA[ <p>Decoupling From a Package</p>  <p></p> <p>For more information on this see <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6231579">Sun Bug #6231579</a> and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug #6178997</a>.</p> ]]>  
+		</Details> 
+	</BugPattern>  
+	<BugCode abbrev="DC">Decoupling From a Package</BugCode> 
+</MessageCollection>

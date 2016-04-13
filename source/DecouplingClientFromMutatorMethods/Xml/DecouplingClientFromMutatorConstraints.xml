@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		className="DecouplingClientFromMutatorSampleCode.EPerson" 
+		mutatorsList="m1;m2"
+		message="Access to this Mutator is not allowed"
+		allowedClassList="DecouplingClientFromMutatorSampleCode.AllowedClass;"
+	/>
+</constraints>

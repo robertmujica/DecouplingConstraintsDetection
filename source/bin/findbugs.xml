@@ -1,0 +1,4 @@
+<FindbugsPlugin>  
+	<Detector class="Detector.DecouplingMutatorMethodsFromClassesDetector" speed="fast" />  
+	<BugPattern abbrev="DC" type="DC_DECOUPLING_MUTATORS_FROM_CLASSES" category="MT_CORRECTNESS" />   
+</FindbugsPlugin> 

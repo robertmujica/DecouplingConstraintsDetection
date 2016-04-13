@@ -1,0 +1,4 @@
+<FindbugsPlugin>  
+	<Detector class="Detector.DecouplingClassesDetector" speed="fast" />  
+	<BugPattern abbrev="DC" type="DC_DECOUPLING_CLASSES" category="MT_CORRECTNESS" />   
+</FindbugsPlugin> 

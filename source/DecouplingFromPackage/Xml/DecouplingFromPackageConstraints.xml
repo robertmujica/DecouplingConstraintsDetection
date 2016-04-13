@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		targetPackage="DecouplingFromPackage.data.repository" 
+		allowedPackageList="DecouplingFromPackage.businessLogic;"
+		message="only DecouplingFromPackage.businessLogic can access DecouplingFromPackage.data.repository Package"
+	/>
+</constraints>

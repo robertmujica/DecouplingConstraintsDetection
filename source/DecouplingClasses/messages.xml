@@ -1,0 +1,14 @@
+<MessageCollection> 
+	<Detector class="Detector.DecouplingClassesDetector"> 
+		<Details> 
+			<![CDATA[ <p>This detector warns about Coupling between two Classes. It is a fast detector.</p> ]]> 
+		</Details> 
+	</Detector>  
+	<BugPattern type="DC_DECOUPLING_CLASSES"> 
+		<ShortDescription>Decoupling Classes</ShortDescription> 
+		<LongDescription>Found Class Coupling in {1} {2}</LongDescription>  
+		<Details> <![CDATA[ <p>Decoupling One Class From Another</p> <p>For more information on this see <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6231579">Sun Bug #6231579</a> and <a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6178997">Sun Bug #6178997</a>.</p> ]]>  
+		</Details> 
+	</BugPattern>  
+	<BugCode abbrev="DC">Decoupling One Class From Another</BugCode> 
+</MessageCollection>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		targetMethod="DecouplingOneMethodFromAnotherSampleCode.Bitstream.create" 
+		forbiddenMethod="DecouplingOneMethodFromAnotherSampleCode.AuthorizeManager.authorizeAction"
+		message="This method ... does not check authorisation, other methods such as Bundle.createBitstream() will check authorisation"
+	/>
+</constraints>

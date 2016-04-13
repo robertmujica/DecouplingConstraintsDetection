@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		targetClass="org.dspace.storage.bitstore.BitstreamStorageManager"
+		allowedClassList="org.dspace.content.Bitstream;"
+		message="org.dspace.content.Bitstream only can access DecouplingClassesSampleCode.BitstreamStorageManager"
+	/>
+</constraints>

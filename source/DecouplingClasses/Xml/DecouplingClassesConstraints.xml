@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		targetClass="DecouplingClassesSampleCode.BitstreamStorageManager" 
+		forbiddenClass="DecouplingClassesSampleCode.BitstreamInfoDAO"
+		message="DecouplingClassesSampleCode.BitstreamStorageManager Class cannot access DecouplingClassesSampleCode.BitstreamInfoDAO"
+	/>
+</constraints>

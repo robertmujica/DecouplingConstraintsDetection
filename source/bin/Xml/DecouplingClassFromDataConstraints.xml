@@ -1,0 +1,10 @@
+
+<?xml version="1.0"?>
+<constraints>
+	<constraint 
+		targetClass="DecouplingClassFromDataSampleCode.AbstractDSpaceTransformer" 
+		fieldName="objectManager"
+		accessorMethodName="getObjectManager"
+		message="Please use the accessor Method :getObjectManager() Instead."
+	/>
+</constraints>
